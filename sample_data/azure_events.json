@@ -1,0 +1,35 @@
+[
+  {
+    "eventTime": "2025-09-12T09:25:12.450Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "GetItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/lambda-dynamo-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.205",
+    "userAgent": "aws-sdk-nodejs",
+    "requestID": "req-xyz222"
+  },
+  {
+    "eventTime": "2025-09-12T09:25:13.100Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "PutItem",
+    "errorCode": "AccessDenied",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/lambda-dynamo-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.205",
+    "userAgent": "aws-sdk-nodejs",
+    "requestID": "req-xyz223"
+  }
+]

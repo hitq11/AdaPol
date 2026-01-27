@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/adapol/__init__.py
+src/adapol/adapol-f.py
+src/adapol/adapol.py
+src/adapol/cli.py
+src/adapol.egg-info/PKG-INFO
+src/adapol.egg-info/SOURCES.txt
+src/adapol.egg-info/dependency_links.txt
+src/adapol.egg-info/entry_points.txt
+src/adapol.egg-info/not-zip-safe
+src/adapol.egg-info/requires.txt
+src/adapol.egg-info/top_level.txt

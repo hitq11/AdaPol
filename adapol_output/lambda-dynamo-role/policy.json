@@ -1,0 +1,27 @@
+{
+  "function_id": "lambda-dynamo-role",
+  "cloud_provider": "aws",
+  "rules": [
+    {
+      "action": "dynamodb.amazonaws.com",
+      "resource": "GetItem:arn:aws:dynamodb:us-east-1:123456789012:table/Orders",
+      "effect": "Allow",
+      "condition": null
+    },
+    {
+      "action": "dynamodb.amazonaws.com",
+      "resource": "PutItem:arn:aws:dynamodb:us-east-1:123456789012:table/Orders",
+      "effect": "Allow",
+      "condition": null
+    }
+  ],
+  "risk_reduction": 95.0,
+  "evidence": [
+    "Observed 2 unique API actions",
+    "Accessed 1 distinct resources",
+    "Based on 2 API calls over observation period",
+    "Generated 2 least-privilege rules",
+    "Risk score: 0.00/10.0"
+  ],
+  "generated_at": "2025-09-19T09:13:21.889088+00:00"
+}

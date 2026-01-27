@@ -1,0 +1,322 @@
+[
+  {
+    "eventTime": "2026-01-17T10:58:33.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "PutItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.175",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-71332170"
+  },
+  {
+    "eventTime": "2026-01-17T11:00:13.144062+00:00Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetObject",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:s3:::my-bucket/data-1.json"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.127",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-93772f33"
+  },
+  {
+    "eventTime": "2026-01-17T11:01:53.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/payment-handler-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:payment-handler"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.16",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-d184d2ff"
+  },
+  {
+    "eventTime": "2026-01-17T11:03:33.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/payment-handler-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:payment-handler"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.58",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-910200a7"
+  },
+  {
+    "eventTime": "2026-01-17T11:05:13.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:notification-service"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.33",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-bf51705f"
+  },
+  {
+    "eventTime": "2026-01-17T11:06:53.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:notification-service"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.146",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-e21eb7a9"
+  },
+  {
+    "eventTime": "2026-01-17T11:08:33.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "GetItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.149",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-e36fdc33"
+  },
+  {
+    "eventTime": "2026-01-17T11:10:13.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:order-processor"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.96",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-921f1245"
+  },
+  {
+    "eventTime": "2026-01-17T11:11:53.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "PutItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.153",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-1ac11ee3"
+  },
+  {
+    "eventTime": "2026-01-17T11:13:33.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "Query",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/notification-service-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.252",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-f30969c4"
+  },
+  {
+    "eventTime": "2026-01-17T11:15:13.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "GetItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/payment-handler-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.206",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-e5267a7d"
+  },
+  {
+    "eventTime": "2026-01-17T11:16:53.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "Query",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/payment-handler-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.14",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-61fc2517"
+  },
+  {
+    "eventTime": "2026-01-17T11:18:33.144062+00:00Z",
+    "eventSource": "sns.amazonaws.com",
+    "eventName": "Publish",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:sns:us-east-1:123456789012:order-notifications"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.122",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-388e8fd7"
+  },
+  {
+    "eventTime": "2026-01-17T11:20:13.144062+00:00Z",
+    "eventSource": "sns.amazonaws.com",
+    "eventName": "Publish",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:sns:us-east-1:123456789012:order-notifications"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.54",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-82cdb511"
+  },
+  {
+    "eventTime": "2026-01-17T11:21:53.144062+00:00Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetObject",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:s3:::my-bucket/data-14.json"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.255",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-95597baf"
+  },
+  {
+    "eventTime": "2026-01-17T11:23:33.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "GetItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.198",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-e8fc8633"
+  },
+  {
+    "eventTime": "2026-01-17T11:25:13.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "PutLogEvents",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:order-processor"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.132",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-2703d803"
+  },
+  {
+    "eventTime": "2026-01-17T11:26:53.144062+00:00Z",
+    "eventSource": "lambda.amazonaws.com",
+    "eventName": "InvokeFunction",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:order-processor"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.203",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-fbf641a3"
+  },
+  {
+    "eventTime": "2026-01-17T11:28:33.144062+00:00Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "CreateLogStream",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:lambda:us-east-1:123456789012:function:order-processor"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.209",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-98fa1f57"
+  },
+  {
+    "eventTime": "2026-01-17T11:30:13.144062+00:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "PutItem",
+    "userIdentity": {
+      "arn": "arn:aws:iam::123456789012:role/order-processor-role"
+    },
+    "resources": [
+      {
+        "ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"
+      }
+    ],
+    "sourceIPAddress": "10.0.0.183",
+    "userAgent": "aws-sdk-python",
+    "requestID": "req-be971167"
+  }
+]

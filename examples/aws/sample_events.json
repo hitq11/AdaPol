@@ -1,0 +1,32 @@
+[
+  {
+    "eventTime": "2024-01-15T10:30:00Z",
+    "eventSource": "s3.amazonaws.com",
+    "eventName": "GetObject",
+    "userIdentity": {"arn": "arn:aws:iam::123456789012:role/lambda-execution-role"},
+    "resources": [{"ARN": "arn:aws:s3:::my-data-bucket/orders/2024/order-123.json"}],
+    "sourceIPAddress": "10.0.0.100",
+    "userAgent": "aws-sdk-python/1.26.0",
+    "requestID": "A1B2C3D4E5F6G7H8"
+  },
+  {
+    "eventTime": "2024-01-15T10:31:00Z",
+    "eventSource": "dynamodb.amazonaws.com",
+    "eventName": "PutItem",
+    "userIdentity": {"arn": "arn:aws:iam::123456789012:role/lambda-execution-role"},
+    "resources": [{"ARN": "arn:aws:dynamodb:us-east-1:123456789012:table/Orders"}],
+    "sourceIPAddress": "10.0.0.100",
+    "userAgent": "aws-sdk-python/1.26.0",
+    "requestID": "B2C3D4E5F6G7H8I9"
+  },
+  {
+    "eventTime": "2024-01-15T10:32:00Z",
+    "eventSource": "sns.amazonaws.com",
+    "eventName": "Publish",
+    "userIdentity": {"arn": "arn:aws:iam::123456789012:role/lambda-execution-role"},
+    "resources": [{"ARN": "arn:aws:sns:us-east-1:123456789012:order-notifications"}],
+    "sourceIPAddress": "10.0.0.100",
+    "userAgent": "aws-sdk-python/1.26.0",
+    "requestID": "C3D4E5F6G7H8I9J0"
+  }
+]

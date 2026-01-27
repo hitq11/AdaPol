@@ -1,0 +1,103 @@
+{
+  "timestamp": "2026-01-24T10:59:01.382481+00:00",
+  "summary": {
+    "total_functions": 3,
+    "policies_generated": 3,
+    "total_events_processed": 20,
+    "average_risk_reduction": 63.333333333333336,
+    "functions_with_events": 3
+  },
+  "function_details": {
+    "order-processor": {
+      "cloud_provider": "aws",
+      "actions_observed": 7,
+      "resources_accessed": 4,
+      "risk_score": 0.0,
+      "risk_reduction_percent": 0,
+      "policy_rules_count": 29,
+      "outlier_accesses": 0,
+      "evidence": [
+        "Observed 7 unique API actions",
+        "Accessed 4 distinct resources",
+        "Based on 14 API calls over observation period",
+        "Generated 29 least-privilege rules",
+        "Risk score: 0.00/10.0"
+      ],
+      "total_api_calls": 14
+    },
+    "payment-handler": {
+      "cloud_provider": "aws",
+      "actions_observed": 1,
+      "resources_accessed": 1,
+      "risk_score": 0.0,
+      "risk_reduction_percent": 95.0,
+      "policy_rules_count": 2,
+      "outlier_accesses": 0,
+      "evidence": [
+        "Observed 1 unique API actions",
+        "Accessed 1 distinct resources",
+        "Based on 2 API calls over observation period",
+        "Generated 2 least-privilege rules",
+        "Risk score: 0.00/10.0"
+      ],
+      "total_api_calls": 2
+    },
+    "notification-service": {
+      "cloud_provider": "aws",
+      "actions_observed": 2,
+      "resources_accessed": 2,
+      "risk_score": 0.0,
+      "risk_reduction_percent": 95.0,
+      "policy_rules_count": 2,
+      "outlier_accesses": 0,
+      "evidence": [
+        "Observed 2 unique API actions",
+        "Accessed 2 distinct resources",
+        "Based on 4 API calls over observation period",
+        "Generated 2 least-privilege rules",
+        "Risk score: 0.00/10.0"
+      ],
+      "total_api_calls": 4
+    }
+  },
+  "validation_results": [
+    {
+      "function_id": "order-processor",
+      "policy_valid": true,
+      "failed_operations": [],
+      "performance_impact": 0.0,
+      "security_score": 0,
+      "validation_details": [
+        "Passed: 0/0 critical operations allowed",
+        "Optional: 8/11 optional operations allowed"
+      ]
+    },
+    {
+      "function_id": "payment-handler",
+      "policy_valid": true,
+      "failed_operations": [],
+      "performance_impact": 0.0,
+      "security_score": 95.0,
+      "validation_details": [
+        "Passed: 0/0 critical operations allowed",
+        "Optional: 1/4 optional operations allowed"
+      ]
+    },
+    {
+      "function_id": "notification-service",
+      "policy_valid": true,
+      "failed_operations": [],
+      "performance_impact": 0.0,
+      "security_score": 95.0,
+      "validation_details": [
+        "Passed: 0/0 critical operations allowed",
+        "Optional: 2/5 optional operations allowed"
+      ]
+    }
+  ],
+  "system_health": {
+    "event_collection_rate": 20,
+    "function_discovery_rate": 3,
+    "policy_success_rate": 100.0
+  }
+}

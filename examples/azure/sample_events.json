@@ -1,0 +1,22 @@
+[
+  {
+    "eventTimestamp": "2024-01-15T10:30:00.000Z",
+    "resourceProviderName": "Microsoft.Storage",
+    "operationName": "Microsoft.Storage/storageAccounts/blobServices/containers/blobs/read",
+    "caller": "order-processor@contoso.onmicrosoft.com",
+    "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/ecommerce-rg/providers/Microsoft.Storage/storageAccounts/orderdata/blobServices/default/containers/orders/blobs/order-123.json",
+    "correlationId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "subscriptionId": "12345678-1234-1234-1234-123456789012",
+    "category": "DataPlaneRequests"
+  },
+  {
+    "eventTimestamp": "2024-01-15T10:31:00.000Z",
+    "resourceProviderName": "Microsoft.DocumentDB",
+    "operationName": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers/items/create",
+    "caller": "order-processor@contoso.onmicrosoft.com",
+    "resourceId": "/subscriptions/12345678-1234-1234-1234-123456789012/resourceGroups/ecommerce-rg/providers/Microsoft.DocumentDB/databaseAccounts/orders-cosmosdb",
+    "correlationId": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+    "subscriptionId": "12345678-1234-1234-1234-123456789012",
+    "category": "DataPlaneRequests"
+  }
+]

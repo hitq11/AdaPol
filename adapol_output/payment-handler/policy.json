@@ -1,0 +1,27 @@
+{
+  "function_id": "payment-handler",
+  "cloud_provider": "aws",
+  "rules": [
+    {
+      "action": "logs.amazonaws.com",
+      "resource": "CreateLogStream:arn:aws:lambda:us-east-1:123456789012:function:payment-handler",
+      "effect": "Allow",
+      "condition": null
+    },
+    {
+      "action": "logs.amazonaws.com:CreateLogStream",
+      "resource": "aws_iam_role.lambda_role.arn",
+      "effect": "Allow",
+      "condition": null
+    }
+  ],
+  "risk_reduction": 95.0,
+  "evidence": [
+    "Observed 1 unique API actions",
+    "Accessed 1 distinct resources",
+    "Based on 2 API calls over observation period",
+    "Generated 2 least-privilege rules",
+    "Risk score: 0.00/10.0"
+  ],
+  "generated_at": "2026-01-24T10:59:01.326131+00:00"
+}

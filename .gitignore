@@ -1,0 +1,8 @@
+structure.txt
+.venv/
+config/
+Documentation/adapol_commands.txt
+tests/
+venv/
+docker-compose.yml
+Dockerfile
