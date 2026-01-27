@@ -64,8 +64,8 @@ AdaPol is implemented as a modular pipeline consisting of multiple loosely coupl
 
 ### Architecture Diagram
 
-> ![Image 1](assets\AdaPol-System-Architecture.png)
-> ![Image 2](assets\AdaPol-Layered-Architecture.png)
+> ![Image 1](assets/AdaPol-System-Architecture.png)
+> ![Image 2](assets/AdaPol-Layered-Architecture.png)
 
 ---
 
@@ -85,7 +85,7 @@ The system flow represents how a user interacts with AdaPol and how data moves t
 
 ### System Flow Diagram
 
-> > ![Image 3](assets\AdaPol-System-Flow.png)
+> > ![Image 3](assets/AdaPol-System-Flow.png)
 
 ---
 
